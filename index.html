@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building and Styling Forms (Hands on) by Vejee Jon D. Olo-an</title>
+</head>
+<link rel="stylesheet" href="css/myExternal1.css">
+<body>
+    <p>User Registration Form</p>
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+                <table>
+                    <tr>
+                        <td id="subheaders">
+                            Full Name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="input-tags" placeholder="Please enter your name (required)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="subheaders">
+                            Email
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" id="input-tags" placeholder="Please enter your email (required)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="subheaders">
+                            Password
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="password" id="input-tags" placeholder="Enter your password (required)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="subheaders">
+                            Age
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="number" id="input-tags" placeholder="Enter your age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="subheaders">
+                            Birthdate
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="date" id="input-tags" placeholder="Enter your birthdate">
+                        </td>
+                    </tr>
+                </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+                <table>
+                    <tr>
+                        <td id="subheaders">
+                            Gender
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="choice-tags" name="Gender">Male
+                            <br>
+                            <input type="radio" id="choice-tags" name="Gender">Female
+                            <br>
+                            <input type="radio" id="choice-tags" name="Gender">Prefer not to say
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="subheaders">
+                            Interests
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="choice-tags"> Web Development
+                            <br>
+                            <input type="checkbox" id="choice-tags"> Design
+                            <br>
+                            <input type="checkbox" id="choice-tags"> AI/ML
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="subheaders">
+                            Country
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select id = "input-tags">
+                                <option disabled selected>Choose a country</option>
+                                <option>Philippines</option>
+                                <option>Japan</option>
+                                <option>Canada</option>
+                                <option>Brazil</option>
+                                <option>Australia</option>
+                                <option>Germany</option>
+                                <option>South Africa</option>
+                                <option>India</option>
+                                <option>France</option>
+                                <option>Mexico</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="subheaders">
+                            About Yourself
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea id="input-paragraph" placeholder="Tell us about yourself"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="submit-button" type="submit">
+                            <input id="reset-button" type="reset">
+                        </td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+    </form>
+</body>
+</html>
